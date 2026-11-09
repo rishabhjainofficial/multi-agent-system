@@ -1,0 +1,38 @@
+# Core orchestration (LangGraph is recommended for multi-agent workflows)
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0
+langchain-community>=0.4,<1.0
+langchain-text-splitters>=1.0,<2.0
+
+# LLM provider integrations
+langchain-openai>=1.0,<2.0
+langchain-groq>=1.0,<2.0
+langchain-google-genai>=4.0,<5.0
+langchain-mistralai>=1.0,<2.0
+langchain-huggingface>=1.0,<2.0
+huggingface-hub>=0.30
+
+# Research and external tools
+langchain-tavily>=0.2,<1.0
+requests>=2.32
+httpx>=0.27
+
+# Configuration, validation, and utilities
+python-dotenv>=1.0
+pydantic>=2.7
+tenacity>=8.2
+
+# Optional: simple web interface and API layer
+streamlit>=1.40
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# Optional: document ingestion / research report export
+pypdf>=5.0
+beautifulsoup4>=4.12
+markdown>=3.7
+
+# Optional: observability during development
+langsmith>=0.3
+rich>=13.7.0
+tavily==1.1.0
